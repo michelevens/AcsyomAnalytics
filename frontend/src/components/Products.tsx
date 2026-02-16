@@ -146,7 +146,7 @@ export function Products() {
           <h2 className="text-3xl sm:text-4xl font-bold text-text">
             Our <span className="gradient-text">Products</span>
           </h2>
-          <p className="mt-4 text-text-muted max-w-2xl mx-auto">
+          <p className="mt-6 text-lg text-text-muted max-w-2xl mx-auto">
             Production-grade SaaS platforms spanning 8 industries — from healthcare EHR to solar
             energy design tools.
           </p>

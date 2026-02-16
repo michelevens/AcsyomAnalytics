@@ -76,7 +76,7 @@ export function Industries() {
           <h2 className="text-3xl sm:text-4xl font-bold text-text">
             Across <span className="gradient-text">8 Industries</span>
           </h2>
-          <p className="mt-4 text-text-muted max-w-2xl mx-auto">
+          <p className="mt-6 text-lg text-text-muted max-w-2xl mx-auto">
             We build vertical SaaS — deep domain expertise in each industry, not shallow
             horizontal tools.
           </p>

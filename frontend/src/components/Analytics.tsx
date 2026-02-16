@@ -48,7 +48,7 @@ export function Analytics() {
           <h2 className="text-3xl sm:text-4xl font-bold text-text">
             Analytics & <span className="gradient-text">Data Science</span>
           </h2>
-          <p className="mt-4 text-text-muted max-w-2xl mx-auto">
+          <p className="mt-6 text-lg text-text-muted max-w-2xl mx-auto">
             Every product starts with data. Our analytics background spans telecom network
             optimization, healthcare quality prediction, and financial modeling.
           </p>

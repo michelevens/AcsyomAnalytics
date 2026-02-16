@@ -26,7 +26,7 @@ export function TechStack() {
           <h2 className="text-3xl sm:text-4xl font-bold text-text">
             Built With <span className="gradient-text">Modern Tech</span>
           </h2>
-          <p className="mt-4 text-text-muted max-w-2xl mx-auto">
+          <p className="mt-6 text-lg text-text-muted max-w-2xl mx-auto">
             Production-grade stack chosen for performance, developer experience, and scalability.
           </p>
         </motion.div>
