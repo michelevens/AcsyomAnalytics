@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Acsyom Analytics</title>
+    <script>
+      // Single-page app GitHub Pages redirect
+      var pathSegmentsToKeep = 1;
+      var l = window.location;
+      var repo = l.pathname
+        .split('/')
+        .slice(0, 1 + pathSegmentsToKeep)
+        .join('/');
+      var decoded = l.pathname
+        .slice(repo.length + 1)
+        .split('/')
+        .map(function (s) {
+          return decodeURIComponent(s);
+        })
+        .join('/');
+      var q = l.search ? '&' + l.search.slice(1) : '';
+      sessionStorage.setItem('spa-redirect', decoded + q + l.hash);
+      l.replace(repo + '/');
+    </script>
+  </head>
+  <body></body>
+</html>
