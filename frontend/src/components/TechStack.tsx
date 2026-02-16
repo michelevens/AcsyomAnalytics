@@ -13,7 +13,7 @@ const technologies = [
 
 export function TechStack() {
   return (
-    <section id="tech" className="py-24 relative">
+    <section id="tech" className="py-32 relative">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div

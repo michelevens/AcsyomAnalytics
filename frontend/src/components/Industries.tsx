@@ -63,7 +63,7 @@ const industries = [
 
 export function Industries() {
   return (
-    <section id="industries" className="py-24 relative">
+    <section id="industries" className="py-32 relative">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
